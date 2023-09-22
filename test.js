@@ -83,4 +83,3 @@ test('Test A score', () => {
 test('Test A+ score', () => {
     expect(convert(9)).toBe('A+');
 })
-//
