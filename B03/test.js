@@ -1,4 +1,6 @@
-const convert = require('./main.js');
+// test for B03.js 
+
+const convert = require('./B03.js');
 
 //Kiem thu bang phuong phap bang quyet dinh
 test('Test invalid score', () => {
