@@ -7,9 +7,9 @@ test('Test invalid input', () => {
 });
 
 test('Test invalid score', () => {
-    expect(calculateGPA([{score: 11, credit: 4}])).toBe('Invalid score');
+    expect(calculateGPA([{score: 11, credits: 4}])).toBe('Invalid score');
 });
 
-test('Test success', () => {
-    expect(calculateGPA([{score: 9, credit: 4}])).toBe(9);
+test('Test score', () => {
+    expect(calculateGPA([{score: 9, credits: 4}])).toBe(9);
 });

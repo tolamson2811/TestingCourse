@@ -16,6 +16,4 @@ function calculateGPA(score) {
     return result
 }
 
-// console.log(calculateGPA([{score: 9, credits: 4}]));
-
 module.exports = calculateGPA;
