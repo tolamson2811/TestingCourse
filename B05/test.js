@@ -1,6 +1,4 @@
-//Test for B04.js
-
-const calculateGPA = require('./B04.js');
+const calculateGPA = require('./B05.js');
 
 test('Test invalid input', () => {
     expect(calculateGPA([])).toBe('Invalid input');
@@ -11,5 +9,5 @@ test('Test invalid score', () => {
 });
 
 test('Test success', () => {
-    expect(calculateGPA([{score: 9, credits: 4}])).toBe(9);
+    expect(calculateGPA([{score: 9, credits: 3}])).toBe(9);
 });
